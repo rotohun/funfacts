@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FactBook.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
+    self.factbook = [[FactBook alloc] init];
+    
+    self.funFactLabel.text = [self.factbook randomFact];
+    
+    }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)showFunFact:(id)sender {
+    
+    self.funFactLabel.text=[self.factbook randomFact];
+    
+    
+    
+}
+
+
 
 @end
