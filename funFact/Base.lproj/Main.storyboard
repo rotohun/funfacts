@@ -25,11 +25,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ct-wt-pXK">
-                                <rect key="frame" x="109" y="401" width="102" height="30"/>
+                                <rect key="frame" x="48" y="422" width="224" height="66"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="24"/>
+                                <color key="tintColor" red="0.11372549019607843" green="0.80784313725490198" blue="0.62745098039215685" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="2.2250738585072014e-308"/>
                                 <state key="normal" title="Button">
-                                    <color key="titleColor" red="0.11864716907272153" green="0.20692415066201811" blue="0.83226799242424243" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.18935968465803807" green="0.87156723484848486" blue="0.34113070728340605" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="showFunFact:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fjt-pf-SXy"/>
@@ -39,10 +41,13 @@
                         <color key="backgroundColor" red="0.036025276035647057" green="0.83009785353535359" blue="0.68518467979062769" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="srv-Qi-gsl" secondAttribute="trailing" constant="27" id="5mY-Qi-JsU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3Ct-wt-pXK" secondAttribute="trailing" constant="28" id="O44-aP-FWB"/>
                             <constraint firstItem="srv-Qi-gsl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="Ro9-6J-vDf"/>
-                            <constraint firstItem="3Ct-wt-pXK" firstAttribute="top" secondItem="srv-Qi-gsl" secondAttribute="bottom" constant="81" id="kYr-sT-Mfh"/>
-                            <constraint firstItem="3Ct-wt-pXK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lRh-jD-qPb"/>
+                            <constraint firstItem="3Ct-wt-pXK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="VJs-MC-w9r"/>
+                            <constraint firstItem="3Ct-wt-pXK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fgC-hj-LJu"/>
                             <constraint firstItem="srv-Qi-gsl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="obs-XD-SXJ"/>
+                            <constraint firstItem="3Ct-wt-pXK" firstAttribute="top" secondItem="srv-Qi-gsl" secondAttribute="bottom" constant="102" id="ol2-0o-6GY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3Ct-wt-pXK" secondAttribute="bottom" constant="80" id="rlc-Hk-xRP"/>
                         </constraints>
                     </view>
                     <connections>
